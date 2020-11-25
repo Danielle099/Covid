@@ -196,14 +196,14 @@
                                 null
                             ],
                             [myObj4[8].area, parseInt(myObj4[8].total), null, null, null, parseInt(
-                                    myObj4[6]
-                                    .total), parseInt(myObj4[5].total), parseInt(myObj4[0].total),
+                                    myObj4[1]
+                                    .total), parseInt(myObj4[6].total), parseInt(myObj4[3].total),
                                 parseInt(
-                                    myObj4[3].total)
+                                    myObj4[2].total)
                             ],
-                            [myObj4[9].area, parseInt(myObj4[9].total), parseInt(myObj4[2].total),
+                            [myObj4[9].area, parseInt(myObj4[9].total), parseInt(myObj4[5].total),
                                 parseInt(
-                                    myObj4[4].total), parseInt(myObj4[1].total), null, null, null,
+                                    myObj4[0].total), parseInt(myObj4[4].total), null, null, null,
                                 null
                             ],
                             [myObj4[10].area, parseInt(myObj4[10].total), null, null, null, null,
@@ -316,7 +316,7 @@
                     function drawChart() {
 
                         var data = new google.visualization.DataTable();
-                        data.addColumn('string', 'Week');
+                        data.addColumn('string', 'Day');
                         data.addColumn('number', 'Carbon');
                         data.addColumn('number', 'Warren');
                         data.addColumn('number', 'Lehigh');
@@ -615,7 +615,7 @@
 
     <!-- Container (Comparison Section) -->
     <div id="column" class="container-fluid text-center">
-        <h2>College and College Covid Graphs</h2><br>
+        <h2>County and College Covid Graphs</h2><br>
         <div id="chart_div" class="chart"></div>
     </div>
 
